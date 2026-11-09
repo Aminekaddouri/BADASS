@@ -1,0 +1,3 @@
+# Overlay network IP - hosts think they are on the same LAN
+ip addr add 20.1.1.1/24 dev eth0
+ip link set eth0 up
